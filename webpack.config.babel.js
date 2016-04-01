@@ -9,7 +9,7 @@ export default {
   entry: './main.js',
   output: {
     path: '.',
-    filename: 'main.build.js',
+    filename: 'bundle.js',
     libraryTarget: 'commonjs2'
   },
   module: {
